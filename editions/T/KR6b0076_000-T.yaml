@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6b0076/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 醫喻經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T04/T04n0219.xml
+    old_id: T04n0219
+hash: sha256:c4450672ad93ea7f46bbce91c83244be98984e9a8c7f523656adc9a20638facb

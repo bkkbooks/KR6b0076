@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6b0076/v1
+canonical_location: https://kanripo.org/bkk/KR6b0076/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 醫喻經
+  identifiers:
+    alt_id:
+    - T04n0219
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T04/T04n0219.xml
+    old_id: T04n0219
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0076_000.yaml, hash: 'sha256:c4450672ad93ea7f46bbce91c83244be98984e9a8c7f523656adc9a20638facb'}
+  - {seq: 1, filename: KR6b0076_001.yaml, hash: 'sha256:5c10c3e62c6fd51df8f8d0f2ee253ac638d81f21ced1f1d3707fc5148af66283'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6b0076_001.markers.yaml, hash: 'sha256:563649f0c91ec99f8c88d7ba67ce5349ac099eb0f6ccc233fc4e6776647279f3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0076_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 508
+  label: 佛說醫喻經
+  type: juan
+  level: 1
+hash: sha256:f6fd8dada79d835a619298ab29e251b6b25b522715139063f3aedb79c0becd55
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
